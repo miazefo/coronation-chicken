@@ -29,5 +29,26 @@ noStroke();
     endShape();
 
 // add presents
+  gift1();
+  gift2();
+  gift3();
 
+// change the colour of the tree
+}
+
+
+
+function gift1() {
+  textSize(70);
+  text("🎁", 210, 390);
+}
+
+function gift2() {
+  textSize(50);
+  text("🎁", 320, 380);
+}
+
+function gift3() {
+  textSize(60);
+  text("🎁", 270, 400);
 }
